@@ -33,7 +33,10 @@ public class Instrumento {
 	/**
 	 * Metodo que comineza a tocar  el instrumento
 	 */
+	
 	public void tocar() {
-		System.out.println("Tocando el intrumento "+ this.nombre);
+		System.out.println("Esta sonando " + this.nombre);
 	}
+
+	
 }

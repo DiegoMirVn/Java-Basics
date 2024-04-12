@@ -24,7 +24,7 @@ public class GuitarraElectrica extends Guitarra{
 
 	@Override
 	public void tocar() {
-	System.out.println("Tocando la guitarra electrica");
+	System.out.println("Tocando el instumento "+  this.getNombre());
 	}
 
 	
